@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    text-align: center;
+    padding: 15px;
+}
+
+img {
+    margin: 10px;
+    width: 500px;
+    height: 300px;
+}
+
+h2 {
+    color: navy;
+    margin-bottom: 15px;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+a {
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    text-decoration: none;
+    color: goldenrod;
+    font-size: 17px;
+}
+
+ul {
+    list-style: none;
+}
+
+table {
+    margin: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: green;
+}
+
+tr td {
+    padding: 15px;
+}
+
+#retour {
+    color: royalblue;
+    text-decoration: none;
+    font-size: 15px;
+    margin-left: -50%;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    margin: 10px;
+    align-items: center;
+}
+
+input {
+    margin: 10px;
+    max-width: 130px;
+
+    border: 2px solid black;
+    background-color: white;
+    color: black;
+    font-size: 12px;
+    padding: 5px;
+    cursor: pointer;
+    border-color: #ff9800;
+    color: orange;
+    text-align: center;
+    border-radius: 15px;
+}
+
+input:hover {
+    background: #ff9800;
+    color: white;
+}
+
+#Valider {
+    border: 2px solid black;
+    background-color: white;
+    color: black;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    border-color: #96651b;
+    color: #96651b;
+    text-align: center;
+    border-radius: 15px;
+}
+
+
+#Valider:hover {
+    background: #96651b;
+    color: white;
+}
+
+p {
+    color: red;
+}
